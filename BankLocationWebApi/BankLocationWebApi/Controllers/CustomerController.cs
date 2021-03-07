@@ -1,4 +1,5 @@
-﻿using BankLocationWebApi.Models.DB;
+﻿using BankLocationWebApi.Filter;
+using BankLocationWebApi.Models.DB;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -64,14 +65,34 @@ namespace BankLocationWebApi.Controllers
                     return BadRequest();
                 }
                 custtoedit.CustomerId = customer.CustomerId;
-                custtoedit.Accounts = customer.Accounts;
-                custtoedit.BankLocationsBranch = customer.BankLocationsBranch;
-                custtoedit.BankLocationsBranchId = customer.BankLocationsBranchId;
-                custtoedit.BillingAccounts = customer.BillingAccounts;
                 custtoedit.ContactInfo = customer.ContactInfo;
                 custtoedit.CustomerName = customer.CustomerName;
                 dbcontext.Update(custtoedit);
                 dbcontext.SaveChanges();
+            }
+            return Ok();
+        }
+
+        [HttpGet]
+        public IActionResult GetStudents([FromQuery] CustomerFilter filter)
+        {
+            IEnumerable<Customer> customers;
+            using (var dbContext = new DB2SlackContext())
+            {
+
+                var query = from customer in dbContext.Customers
+                            where (!filter.CustomerId.HasValue || customer.CustomerId == filter.CustomerId)
+                            && (string.IsNullOrEmpty(filter.ContactInfo) || customer.ContactInfo.Contains(filter.ContactInfo)
+                            && (string.IsNullOrEmpty(filter.CustomerName) || customer.CustomerName.Contains(filter.CustomerName)))
+                            select customer;
+
+                if (filter.Skip.HasValue)
+                {
+                    query = query.Skip(filter.Skip.Value);
+                }
+                query = query.Take(filter.Take.Value);
+
+                customers = query.ToList();
             }
             return Ok();
         }

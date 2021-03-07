@@ -1,4 +1,5 @@
-﻿using BankLocationWebApi.Models.DB;
+﻿using BankLocationWebApi.Filter;
+using BankLocationWebApi.Models.DB;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -66,14 +67,7 @@ namespace BankLocationWebApi.Controllers
                 }
                 acctoedit.AccountId = account.AccountId;
                 acctoedit.AccountNumber = account.AccountNumber;
-                acctoedit.AccountsTypeAccountType = account.AccountsTypeAccountType;
-                acctoedit.AccountsTypeAccountTypeId = account.AccountsTypeAccountTypeId;
-                acctoedit.AccountTypeId = account.AccountTypeId;
                 acctoedit.Balance = account.Balance;
-                acctoedit.BillingAccounts = account.BillingAccounts;
-                acctoedit.CustomerId = account.CustomerId;
-                acctoedit.CustomersCustomer = account.CustomersCustomer;
-                acctoedit.CustomersCustomerId = account.CustomersCustomerId;
                 dbcontext.Update(acctoedit);
                 dbcontext.SaveChanges();
 
@@ -96,7 +90,26 @@ namespace BankLocationWebApi.Controllers
                 dbcontext.SaveChanges();
                 return Ok();
             }
-            
+        }
+
+        [HttpGet]
+        public IActionResult GetStudents([FromQuery] AccFilter filter)
+        {
+            IEnumerable<Account> accounts ;
+            using (var dbContext = new DB2SlackContext())
+            {
+             
+                var query = from account in dbContext.Accounts
+                            where (!filter.AccountId.HasValue || account.AccountId==filter.AccountId)
+                            select account;
+                if (filter.Skip.HasValue)
+                {
+                    query = query.Skip(filter.Skip.Value);
+                }
+                query = query.Take(filter.Take.Value);
+                accounts = query.ToList();
+            }
+            return Ok();
         }
     }
 }

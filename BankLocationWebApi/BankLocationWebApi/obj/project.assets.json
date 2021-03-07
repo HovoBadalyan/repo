@@ -5804,11 +5804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hovo\\Desktop\\BankLocationWebApi\\BankLocationWebApi\\BankLocationWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Hovo\\Downloads\\repo\\BankLocationWebApi\\BankLocationWebApi\\BankLocationWebApi.csproj",
       "projectName": "BankLocationWebApi",
-      "projectPath": "C:\\Users\\Hovo\\Desktop\\BankLocationWebApi\\BankLocationWebApi\\BankLocationWebApi.csproj",
+      "projectPath": "C:\\Users\\Hovo\\Downloads\\repo\\BankLocationWebApi\\BankLocationWebApi\\BankLocationWebApi.csproj",
       "packagesPath": "C:\\Users\\Hovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hovo\\Desktop\\BankLocationWebApi\\BankLocationWebApi\\obj\\",
+      "outputPath": "C:\\Users\\Hovo\\Downloads\\repo\\BankLocationWebApi\\BankLocationWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
