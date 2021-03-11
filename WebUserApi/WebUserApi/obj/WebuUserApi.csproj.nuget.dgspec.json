@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erikg\\source\\repos\\webuserapi\\webuserapi\\WebuUserApi.csproj": {}
+    "C:\\Users\\Hovo\\Downloads\\repo\\WebUserApi\\webuserapi\\WebuUserApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erikg\\source\\repos\\webuserapi\\webuserapi\\WebuUserApi.csproj": {
+    "C:\\Users\\Hovo\\Downloads\\repo\\WebUserApi\\webuserapi\\WebuUserApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erikg\\source\\repos\\webuserapi\\webuserapi\\WebuUserApi.csproj",
+        "projectUniqueName": "C:\\Users\\Hovo\\Downloads\\repo\\WebUserApi\\webuserapi\\WebuUserApi.csproj",
         "projectName": "WebuUserApi",
-        "projectPath": "C:\\Users\\erikg\\source\\repos\\webuserapi\\webuserapi\\WebuUserApi.csproj",
-        "packagesPath": "C:\\Users\\erikg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erikg\\source\\repos\\webuserapi\\webuserapi\\obj\\",
+        "projectPath": "C:\\Users\\Hovo\\Downloads\\repo\\WebUserApi\\webuserapi\\WebuUserApi.csproj",
+        "packagesPath": "C:\\Users\\Hovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hovo\\Downloads\\repo\\WebUserApi\\webuserapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\erikg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
