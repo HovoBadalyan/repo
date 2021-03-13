@@ -1,0 +1,272 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect\\Northwndarchitect.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.BLL\\Northwndarchitect.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.BLL\\Northwndarchitect.BLL.csproj",
+        "projectName": "Northwndarchitect.BLL",
+        "projectPath": "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.BLL\\Northwndarchitect.BLL.csproj",
+        "packagesPath": "C:\\Users\\Hovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.CORE\\Northwndarchitect.CORE.csproj": {
+                "projectPath": "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.CORE\\Northwndarchitect.CORE.csproj"
+              },
+              "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.DAL\\Northwndarchitect.DAL.csproj": {
+                "projectPath": "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.DAL\\Northwndarchitect.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.CORE\\Northwndarchitect.CORE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.CORE\\Northwndarchitect.CORE.csproj",
+        "projectName": "Northwndarchitect.CORE",
+        "projectPath": "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.CORE\\Northwndarchitect.CORE.csproj",
+        "packagesPath": "C:\\Users\\Hovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.CORE\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.DAL\\Northwndarchitect.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.DAL\\Northwndarchitect.DAL.csproj",
+        "projectName": "Northwndarchitect.DAL",
+        "projectPath": "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.DAL\\Northwndarchitect.DAL.csproj",
+        "packagesPath": "C:\\Users\\Hovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.CORE\\Northwndarchitect.CORE.csproj": {
+                "projectPath": "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.CORE\\Northwndarchitect.CORE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect\\Northwndarchitect.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect\\Northwndarchitect.API.csproj",
+        "projectName": "Northwndarchitect.API",
+        "projectPath": "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect\\Northwndarchitect.API.csproj",
+        "packagesPath": "C:\\Users\\Hovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.BLL\\Northwndarchitect.BLL.csproj": {
+                "projectPath": "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.BLL\\Northwndarchitect.BLL.csproj"
+              },
+              "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.CORE\\Northwndarchitect.CORE.csproj": {
+                "projectPath": "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.CORE\\Northwndarchitect.CORE.csproj"
+              },
+              "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.DAL\\Northwndarchitect.DAL.csproj": {
+                "projectPath": "C:\\Users\\Hovo\\Downloads\\repo\\Northwndarchitect\\Northwndarchitect.DAL\\Northwndarchitect.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
