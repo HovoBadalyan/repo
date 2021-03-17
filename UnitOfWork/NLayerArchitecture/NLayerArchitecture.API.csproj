@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NLayerArchitecure.BLL\NLayerArchitecure.BLL.csproj" />
+    <ProjectReference Include="..\NLayerArchitecure.Core\NLayerArchitecure.Core.csproj" />
+    <ProjectReference Include="..\NLayerArchitecure.DAL\NLayerArchitecure.DAL.csproj" />
+  </ItemGroup>
+
+
+</Project>
