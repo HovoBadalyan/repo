@@ -10,6 +10,7 @@ namespace NLayerArchitecure.Core.Abstractions
     public interface IRepositoryManager
     {
         public IOrderRepository Orders { get; }
+        public IProductRepository Products { get; }
 
 
         public IDatabaseTransaction BeginTransaction(IsolationLevel isolationLevel = IsolationLevel.ReadCommitted);

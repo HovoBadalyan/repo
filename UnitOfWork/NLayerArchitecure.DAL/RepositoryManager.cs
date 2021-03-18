@@ -31,6 +31,9 @@ namespace NLayerArchitecure.DAL
         //    }
         //}
         public IOrderRepository Orders => _orders ?? (_orders = new OrderRepository(_dbContext));
+        private IProductRepository product;
+        public IProductRepository Products =>product??(product=new ProductRepository(_dbContext));
+
         // public IOrderRepository Orders => _orders ?? (_orders = (IOrderRepository)_serviceProvider.GetService(typeof(IOrderRepository)));
 
         public IDatabaseTransaction BeginTransaction(IsolationLevel isolationLevel = IsolationLevel.ReadCommitted)

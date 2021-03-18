@@ -16,3 +16,12 @@ C:\Users\Hovo\Desktop\UnitOfWork\NLayerArchitecure.Core\obj\Debug\netstandard2.1
 C:\Users\Hovo\Desktop\UnitOfWork\NLayerArchitecure.Core\obj\Debug\netstandard2.1\NLayerArchitecure.Core.csproj.CoreCompileInputs.cache
 C:\Users\Hovo\Desktop\UnitOfWork\NLayerArchitecure.Core\obj\Debug\netstandard2.1\NLayerArchitecure.Core.dll
 C:\Users\Hovo\Desktop\UnitOfWork\NLayerArchitecure.Core\obj\Debug\netstandard2.1\NLayerArchitecure.Core.pdb
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.Core\bin\Debug\netstandard2.1\NLayerArchitecure.Core.deps.json
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.Core\bin\Debug\netstandard2.1\NLayerArchitecure.Core.dll
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.Core\bin\Debug\netstandard2.1\NLayerArchitecure.Core.pdb
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.Core\obj\Debug\netstandard2.1\NLayerArchitecure.Core.csprojAssemblyReference.cache
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.Core\obj\Debug\netstandard2.1\NLayerArchitecure.Core.AssemblyInfoInputs.cache
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.Core\obj\Debug\netstandard2.1\NLayerArchitecure.Core.AssemblyInfo.cs
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.Core\obj\Debug\netstandard2.1\NLayerArchitecure.Core.csproj.CoreCompileInputs.cache
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.Core\obj\Debug\netstandard2.1\NLayerArchitecure.Core.dll
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.Core\obj\Debug\netstandard2.1\NLayerArchitecure.Core.pdb

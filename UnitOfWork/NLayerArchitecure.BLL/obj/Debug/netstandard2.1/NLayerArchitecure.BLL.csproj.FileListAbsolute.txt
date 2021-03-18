@@ -22,3 +22,15 @@ C:\Users\Hovo\Desktop\UnitOfWork\NLayerArchitecure.BLL\obj\Debug\netstandard2.1\
 C:\Users\Hovo\Desktop\UnitOfWork\NLayerArchitecure.BLL\obj\Debug\netstandard2.1\NLayerArchitecure.BLL.csproj.CopyComplete
 C:\Users\Hovo\Desktop\UnitOfWork\NLayerArchitecure.BLL\obj\Debug\netstandard2.1\NLayerArchitecure.BLL.dll
 C:\Users\Hovo\Desktop\UnitOfWork\NLayerArchitecure.BLL\obj\Debug\netstandard2.1\NLayerArchitecure.BLL.pdb
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.BLL\bin\Debug\netstandard2.1\NLayerArchitecure.BLL.deps.json
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.BLL\bin\Debug\netstandard2.1\NLayerArchitecure.BLL.dll
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.BLL\bin\Debug\netstandard2.1\NLayerArchitecure.BLL.pdb
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.BLL\bin\Debug\netstandard2.1\NLayerArchitecure.Core.dll
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.BLL\bin\Debug\netstandard2.1\NLayerArchitecure.Core.pdb
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.BLL\obj\Debug\netstandard2.1\NLayerArchitecure.BLL.csprojAssemblyReference.cache
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.BLL\obj\Debug\netstandard2.1\NLayerArchitecure.BLL.AssemblyInfoInputs.cache
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.BLL\obj\Debug\netstandard2.1\NLayerArchitecure.BLL.AssemblyInfo.cs
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.BLL\obj\Debug\netstandard2.1\NLayerArchitecure.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.BLL\obj\Debug\netstandard2.1\NLayerArchitecure.BLL.csproj.CopyComplete
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.BLL\obj\Debug\netstandard2.1\NLayerArchitecure.BLL.dll
+C:\Users\Hovo\Downloads\repo\UnitOfWork\NLayerArchitecure.BLL\obj\Debug\netstandard2.1\NLayerArchitecure.BLL.pdb
