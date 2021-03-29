@@ -1,0 +1,12 @@
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.DAL\obj\Debug\netstandard2.1\NorthWnd.DAL.csprojAssemblyReference.cache
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.DAL\obj\Debug\netstandard2.1\NorthWnd.DAL.AssemblyInfoInputs.cache
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.DAL\obj\Debug\netstandard2.1\NorthWnd.DAL.AssemblyInfo.cs
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.DAL\obj\Debug\netstandard2.1\NorthWnd.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.DAL\bin\Debug\netstandard2.1\NorthWnd.DAL.deps.json
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.DAL\bin\Debug\netstandard2.1\NorthWnd.DAL.dll
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.DAL\bin\Debug\netstandard2.1\NorthWnd.DAL.pdb
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.DAL\bin\Debug\netstandard2.1\NorthWnd.CORE.dll
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.DAL\bin\Debug\netstandard2.1\NorthWnd.CORE.pdb
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.DAL\obj\Debug\netstandard2.1\NorthWnd.DAL.csproj.CopyComplete
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.DAL\obj\Debug\netstandard2.1\NorthWnd.DAL.dll
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.DAL\obj\Debug\netstandard2.1\NorthWnd.DAL.pdb

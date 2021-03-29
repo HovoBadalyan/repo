@@ -1,0 +1,9 @@
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.CORE\bin\Debug\netstandard2.1\NorthWnd.CORE.deps.json
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.CORE\bin\Debug\netstandard2.1\NorthWnd.CORE.dll
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.CORE\bin\Debug\netstandard2.1\NorthWnd.CORE.pdb
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.CORE\obj\Debug\netstandard2.1\NorthWnd.CORE.csprojAssemblyReference.cache
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.CORE\obj\Debug\netstandard2.1\NorthWnd.CORE.AssemblyInfoInputs.cache
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.CORE\obj\Debug\netstandard2.1\NorthWnd.CORE.AssemblyInfo.cs
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.CORE\obj\Debug\netstandard2.1\NorthWnd.CORE.csproj.CoreCompileInputs.cache
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.CORE\obj\Debug\netstandard2.1\NorthWnd.CORE.dll
+C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.CORE\obj\Debug\netstandard2.1\NorthWnd.CORE.pdb

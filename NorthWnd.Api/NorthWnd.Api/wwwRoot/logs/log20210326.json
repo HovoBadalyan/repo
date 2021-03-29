@@ -1,0 +1,45 @@
+2021-03-26 10:08:52.364 +04:00 [ERR] 
+NorthWnd.CORE.Exceptions.LogicException: Wrong username or password
+   at NorthWnd.BLL.Operations.UserOperations.Login(LoginModel model, HttpContext context) in C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.BLL\Operations\UserOperations.cs:line 105
+   at NorthWnd.Api.Controllers.UsersController.Login(LoginModel model) in C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.Api\Controllers\UsersController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NorthWnd.Api.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.Api\Middleware\ErrorHandlingMiddleware.cs:line 30
+2021-03-26 15:17:18.893 +04:00 [INF] OrderOperations --- GetAll method started
+2021-03-26 15:17:31.233 +04:00 [INF] OrderOperations --- GetAll method finished
+2021-03-26 15:17:52.522 +04:00 [INF] OrderOperations --- GetOrder method started
+2021-03-26 15:17:55.937 +04:00 [INF] OrderOperations --- GetOrder method finished
+2021-03-26 15:18:05.553 +04:00 [INF] EmployeeOperations --- GetAll method started
+2021-03-26 15:18:06.253 +04:00 [INF] EmployeeOperations --- GetAll method finished
+2021-03-26 15:18:11.205 +04:00 [INF] EmployeeOperations --- Get method started
+2021-03-26 15:18:11.359 +04:00 [INF] EmployeeOperations --- Get method finished
+2021-03-26 15:18:18.267 +04:00 [INF] OrderDetailsOparation --- GetAll method started
+2021-03-26 15:18:18.659 +04:00 [INF] OrderDetailsOparation --- GetAll method finished
+2021-03-26 15:18:29.566 +04:00 [INF] ShipperOperation --- GetAll method started
+2021-03-26 15:18:30.118 +04:00 [INF] ShipperOperation --- GetAll method finished
+2021-03-26 15:18:33.984 +04:00 [INF] ShipperOperation --- Get method started
+2021-03-26 15:18:34.185 +04:00 [INF] ShipperOperation --- Add method finished
+2021-03-26 15:18:34.319 +04:00 [INF] ShipperOperation --- Get method started
+2021-03-26 15:18:34.336 +04:00 [INF] ShipperOperation --- Add method finished
+2021-03-26 15:18:40.411 +04:00 [INF] SupplierOperation --- GetAll method started
+2021-03-26 15:18:41.305 +04:00 [INF] SupplierOperation --- GetAll method finished
+2021-03-26 15:18:44.957 +04:00 [INF] SupplierOperation --- Get method started
+2021-03-26 15:18:45.044 +04:00 [INF] SupplierOperation --- Get method finished
+2021-03-26 15:19:35.815 +04:00 [INF] RegionOperations --- GetAll method started
+2021-03-26 15:19:36.380 +04:00 [INF] RegionOperations --- GetAll method finished
+2021-03-26 15:19:46.183 +04:00 [INF] RegionOperations --- Get method started
+2021-03-26 15:19:46.343 +04:00 [INF] RegionOperations --- Get method finished
+2021-03-26 15:46:01.095 +04:00 [INF] OrderOperations --- GetAll method started
+2021-03-26 15:46:03.310 +04:00 [INF] ShipperOperation --- GetAll method started
+2021-03-26 15:46:14.314 +04:00 [INF] ShipperOperation --- GetAll method finished
+2021-03-26 15:46:14.500 +04:00 [INF] OrderOperations --- GetAll method finished
