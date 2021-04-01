@@ -80,7 +80,7 @@ namespace NorthWnd.Api.Controllers
         }
 
         [HttpGet("Highfreight1996_1997")]
-        public IActionResult Get27()
+        public IActionResult Highfreight1996_1997()
         {
             var res = _orderOperations.GetHighfreight1996_1997();
             return Ok(res);

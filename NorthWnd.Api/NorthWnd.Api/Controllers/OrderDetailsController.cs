@@ -58,7 +58,7 @@ namespace NorthWnd.Api.Controllers
 
 
         [HttpGet("OrdersDoubleEntry")]
-        public IActionResult Get38()
+        public IActionResult OrdersDoubleEntry()
         {
             var res = orderDetails.GetDoubleEntries();
             return Ok(res);
@@ -66,7 +66,7 @@ namespace NorthWnd.Api.Controllers
         
         
         [HttpGet("OrdersDoubleEntryDetails")]
-        public IActionResult Get39()
+        public IActionResult OrdersDoubleEntryDetails()
         {
             var res = orderDetails.GetDoubleEntriesDetails();
             return Ok(res);

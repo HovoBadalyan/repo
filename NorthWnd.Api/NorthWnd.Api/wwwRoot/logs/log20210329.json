@@ -823,3 +823,7 @@ Error Number:8152,State:13,Class:16
 2021-03-29 10:40:29.465 +04:00 [INF] RegionOperations --- GetAll method finished
 2021-03-29 10:40:32.857 +04:00 [INF] RegionOperations --- GetAll method started
 2021-03-29 10:40:32.881 +04:00 [INF] RegionOperations --- GetAll method finished
+2021-03-29 11:08:31.605 +04:00 [INF] OrderOperations --- GetAll method started
+2021-03-29 11:08:46.779 +04:00 [INF] OrderOperations --- GetAll method finished
+2021-03-29 11:09:15.228 +04:00 [INF] CategoryOperations --- GetAll method started
+2021-03-29 11:09:16.180 +04:00 [INF] CategoryOperations --- GetAll method finished

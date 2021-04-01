@@ -10,3 +10,15 @@ C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.BLL\bin\Debug\netstandard2.1\No
 C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.BLL\obj\Debug\netstandard2.1\NorthWnd.BLL.csproj.CopyComplete
 C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.BLL\obj\Debug\netstandard2.1\NorthWnd.BLL.dll
 C:\Users\Hovo\source\repos\NorthWnd.Api\NorthWnd.BLL\obj\Debug\netstandard2.1\NorthWnd.BLL.pdb
+C:\Users\Hovo\Downloads\repo\NorthWnd.Api\NorthWnd.BLL\bin\Debug\netstandard2.1\NorthWnd.BLL.deps.json
+C:\Users\Hovo\Downloads\repo\NorthWnd.Api\NorthWnd.BLL\bin\Debug\netstandard2.1\NorthWnd.BLL.dll
+C:\Users\Hovo\Downloads\repo\NorthWnd.Api\NorthWnd.BLL\bin\Debug\netstandard2.1\NorthWnd.BLL.pdb
+C:\Users\Hovo\Downloads\repo\NorthWnd.Api\NorthWnd.BLL\bin\Debug\netstandard2.1\NorthWnd.CORE.dll
+C:\Users\Hovo\Downloads\repo\NorthWnd.Api\NorthWnd.BLL\bin\Debug\netstandard2.1\NorthWnd.CORE.pdb
+C:\Users\Hovo\Downloads\repo\NorthWnd.Api\NorthWnd.BLL\obj\Debug\netstandard2.1\NorthWnd.BLL.csprojAssemblyReference.cache
+C:\Users\Hovo\Downloads\repo\NorthWnd.Api\NorthWnd.BLL\obj\Debug\netstandard2.1\NorthWnd.BLL.AssemblyInfoInputs.cache
+C:\Users\Hovo\Downloads\repo\NorthWnd.Api\NorthWnd.BLL\obj\Debug\netstandard2.1\NorthWnd.BLL.AssemblyInfo.cs
+C:\Users\Hovo\Downloads\repo\NorthWnd.Api\NorthWnd.BLL\obj\Debug\netstandard2.1\NorthWnd.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Hovo\Downloads\repo\NorthWnd.Api\NorthWnd.BLL\obj\Debug\netstandard2.1\NorthWnd.BLL.csproj.CopyComplete
+C:\Users\Hovo\Downloads\repo\NorthWnd.Api\NorthWnd.BLL\obj\Debug\netstandard2.1\NorthWnd.BLL.dll
+C:\Users\Hovo\Downloads\repo\NorthWnd.Api\NorthWnd.BLL\obj\Debug\netstandard2.1\NorthWnd.BLL.pdb

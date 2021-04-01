@@ -16,7 +16,7 @@ namespace NorthWnd.Api.Controllers
 
 
         [HttpGet("totalcustomers")]
-        public IActionResult Get21()
+        public IActionResult Totalcustomers()
         {
             var res = customer.GetTotalCustomers();
             return Ok(res);
@@ -25,35 +25,35 @@ namespace NorthWnd.Api.Controllers
 
 
         [HttpGet("customerswithnoorders")]
-        public IActionResult Get30()
+        public IActionResult Customerswithnoorders()
         {
           var result=customer.GetCustomerswithnoorders();
             return Ok(result);
         }
 
         [HttpGet("Customerlistbyregions")]
-        public IActionResult Get24()
+        public IActionResult Customerlistbyregions()
         {
             var res = customer.GetCustomerlistbyregions();
             return Ok(res);
         }
 
         [HttpGet("customers_no_orders_empid4")]
-        public IActionResult Get31()
+        public IActionResult Customers_no_orders_empid4()
         {
             var res = customer.Get4s();
             return Ok(res);
         }
 
         [HttpGet("Highvaluecustomers")]
-        public IActionResult Get32()
+        public IActionResult Highvaluecustomers()
         {
             var res = customer.GetHighvaluecustomers();
             return Ok(res);
         }
 
         [HttpGet("Highvaluecustomerstotalorders")]
-        public IActionResult Get33()
+        public IActionResult Highvaluecustomerstotalorders()
         {
             var res = customer.Highvaluecustomerstotalorders();
             return Ok(res);
@@ -61,7 +61,7 @@ namespace NorthWnd.Api.Controllers
 
 
         [HttpGet("Highvaluecustomerswithdiscounts")]
-        public IActionResult Get34()
+        public IActionResult Highvaluecustomerswithdiscounts()
         {
             var res = customer.GetHighvaluecustomerswithdiscounts();
             return Ok(res);

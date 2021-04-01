@@ -58,7 +58,7 @@ namespace NorthWnd.Api.Controllers
 
 
         [HttpGet("CategoryandtotalProducts")]
-        public IActionResult Get20()
+        public IActionResult CategoryandtotalProducts()
         {
             var res = category.GetCategoryandtotalProducts();
             return Ok(res);

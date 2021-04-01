@@ -59,14 +59,14 @@ namespace NorthWnd.Api.Controllers
 
 
         [HttpGet("Productsneedreorderings")]
-        public IActionResult Get22()
+        public IActionResult Productsneedreorderings()
         {
             var res = product.GetProductsneedreorderings();
             return Ok(res);
         }
 
         [HttpGet("Productsthatneedreorderings")]
-        public IActionResult Get23()
+        public IActionResult Productsthatneedreorderings()
         {
             var res = product.GetProductsthatneedreorderings();
             return Ok(res);
