@@ -94,11 +94,11 @@ namespace Cofee_Machine
             bool selectionOK = false;
             while (!selectionOK)
             {
-                switch (id)
+                using (dbContext)
                 {
-                    case 1:
-                        using (dbContext)
-                        {
+                    switch (id)
+                    {
+                        case 1:
                             var cofename = dbContext.Coffees.Where(x => x.Id == 1);
                             foreach (var item in cofename)
                             {
@@ -152,11 +152,8 @@ namespace Cofee_Machine
                             }
                             selectionOK = true;
                             break;
-                        }
 
-                    case 2:
-                        using (dbContext)
-                        {
+                        case 2:
                             var cofename2 = dbContext.Coffees.Where(x => x.Id == 2);
                             foreach (var item in cofename2)
                             {
@@ -210,11 +207,8 @@ namespace Cofee_Machine
                             }
                             selectionOK = true;
                             break;
-                        }
 
-                    case 3:
-                        using (dbContext)
-                        {
+                        case 3:
                             var cofename3 = dbContext.Coffees.Where(x => x.Id == 3);
                             foreach (var item in cofename3)
                             {
@@ -268,11 +262,8 @@ namespace Cofee_Machine
                             }
                             selectionOK = true;
                             break;
-                        }
 
-                    case 4:
-                        using (dbContext)
-                        {
+                        case 4:
                             var cofename4 = dbContext.Coffees.Where(x => x.Id == 4);
                             foreach (var item in cofename4)
                             {
@@ -326,11 +317,8 @@ namespace Cofee_Machine
                             }
                             selectionOK = true;
                             break;
-                        }
 
-                    case 5:
-                        using (dbContext)
-                        {
+                        case 5:
                             var cofename5 = dbContext.Coffees.Where(x => x.Id == 5);
                             foreach (var item in cofename5)
                             {
@@ -384,11 +372,8 @@ namespace Cofee_Machine
                             }
                             selectionOK = true;
                             break;
-                        }
 
-                    case 6:
-                        using (dbContext)
-                        {
+                        case 6:
                             var cofename6 = dbContext.Coffees.Where(x => x.Id == 6);
                             foreach (var item in cofename6)
                             {
@@ -442,11 +427,8 @@ namespace Cofee_Machine
                             }
                             selectionOK = true;
                             break;
-                        }
 
-                    case 7:
-                        using (dbContext)
-                        {
+                        case 7:
                             var cofename7 = dbContext.Coffees.Where(x => x.Id == 7);
                             foreach (var item in cofename7)
                             {
@@ -500,11 +482,8 @@ namespace Cofee_Machine
                             }
                             selectionOK = true;
                             break;
-                        }
 
-                    case 8:
-                        using (dbContext)
-                        {
+                        case 8:
                             var cofename8 = dbContext.Coffees.Where(x => x.Id == 8);
                             foreach (var item in cofename8)
                             {
@@ -558,11 +537,8 @@ namespace Cofee_Machine
                             }
                             selectionOK = true;
                             break;
-                        }
 
-                    case 9:
-                        using (dbContext)
-                        {
+                        case 9:
                             var cofename9 = dbContext.Coffees.Where(x => x.Id == 9);
                             foreach (var item in cofename9)
                             {
@@ -581,7 +557,7 @@ namespace Cofee_Machine
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
                                         while (!t)
                                         {
-                                        int i = Convert.ToInt32(Console.ReadLine());
+                                            int i = Convert.ToInt32(Console.ReadLine());
                                             switch (i)
                                             {
                                                 case 0:
@@ -615,11 +591,8 @@ namespace Cofee_Machine
                             }
                             selectionOK = true;
                             break;
-                        }
 
-                    case 10:
-                        using (dbContext)
-                        {
+                        case 10:
                             var cofename10 = dbContext.Coffees.Where(x => x.Id == 10);
                             foreach (var item in cofename10)
                             {
@@ -639,7 +612,7 @@ namespace Cofee_Machine
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
                                         while (!t)
                                         {
-                                        int i = Convert.ToInt32(Console.ReadLine());
+                                            int i = Convert.ToInt32(Console.ReadLine());
                                             switch (i)
                                             {
                                                 case 0:
@@ -673,11 +646,8 @@ namespace Cofee_Machine
                             }
                             selectionOK = true;
                             break;
-                        }
 
-                    case 11:
-                        using (dbContext)
-                        {
+                        case 11:
                             var cofename11 = dbContext.Coffees.Where(x => x.Id == 11);
                             foreach (var item in cofename11)
                             {
@@ -697,7 +667,7 @@ namespace Cofee_Machine
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
                                         while (!t)
                                         {
-                                        int i = Convert.ToInt32(Console.ReadLine());
+                                            int i = Convert.ToInt32(Console.ReadLine());
                                             switch (i)
                                             {
                                                 case 0:
@@ -731,13 +701,13 @@ namespace Cofee_Machine
                             }
                             selectionOK = true;
                             break;
-                        }
 
-                    default:
-                        Console.WriteLine("invalid Selection please select now");
-                        id = Convert.ToInt32(Console.ReadLine());
-                        selectionOK = false;
-                        break;
+                        default:
+                            Console.WriteLine("invalid Selection please select now");
+                            id = Convert.ToInt32(Console.ReadLine());
+                            selectionOK = false;
+                            break;
+                    }
                 }
             }
         }
