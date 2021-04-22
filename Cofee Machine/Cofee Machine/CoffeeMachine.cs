@@ -1,7 +1,5 @@
 ﻿using Cofee_Machine.Models;
-using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 
 namespace Cofee_Machine
@@ -110,10 +108,7 @@ namespace Cofee_Machine
                                     {
                                         Console.WriteLine($"\nThank you for choosing {item.CoffeeName} product is ready");
                                         RunningTotal -= CostofCoffee;
-                                        Console.WriteLine($"\nwater= {total.water - item.Water} \nsugar= {total.sugar - item.Sugar} \ncoffee= {total.coffee - item.Coffee}");
-                                        total.water -= item.Water;
-                                        total.sugar -= item.Sugar;
-                                        total.coffee -= item.Coffee;
+                                        Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");                       
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
                                         while (!t)
@@ -125,7 +120,8 @@ namespace Cofee_Machine
                                                     Console.WriteLine($"\nPleas take your change {RunningTotal}");
                                                     RunningTotal -= RunningTotal;
                                                     t = true;
-                                                    DisplayCoffeesSelection();
+                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
+                                                    DepositCoin(int.Parse(Console.ReadLine())); 
                                                     break;
                                                 case 1:
                                                     DisplayCoffeesSelection();
@@ -140,9 +136,8 @@ namespace Cofee_Machine
                                         }
                                     }
                                     else
-                                    {
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
-                                    }
+
                                 }
                                 else
                                 {
@@ -165,10 +160,7 @@ namespace Cofee_Machine
                                     {
                                         Console.WriteLine($"\nThank you for choosing {item.CoffeeName} product is ready");
                                         RunningTotal -= CostofCoffee;
-                                        Console.WriteLine($"\nwater= {total.water - item.Water} \nsugar= {total.sugar - item.Sugar} \ncoffee= {total.coffee - item.Coffee}");
-                                        total.water -= item.Water;
-                                        total.sugar -= item.Sugar;
-                                        total.coffee -= item.Coffee;
+                                        Console.WriteLine($"\nwater= { total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
                                         while (!t)
@@ -180,7 +172,8 @@ namespace Cofee_Machine
                                                     Console.WriteLine($"\nPleas take your change {RunningTotal}");
                                                     RunningTotal -= RunningTotal;
                                                     t = true;
-                                                    DisplayCoffeesSelection();
+                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
+                                                    DepositCoin(int.Parse(Console.ReadLine()));
                                                     break;
                                                 case 1:
                                                     DisplayCoffeesSelection();
@@ -195,9 +188,7 @@ namespace Cofee_Machine
                                         }
                                     }
                                     else
-                                    {
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
-                                    }
                                 }
                                 else
                                 {
@@ -220,10 +211,7 @@ namespace Cofee_Machine
                                     {
                                         Console.WriteLine($"\nThank you for choosing {item.CoffeeName} product is ready");
                                         RunningTotal -= CostofCoffee;
-                                        Console.WriteLine($"\nwater= {total.water - item.Water} \nsugar= {total.sugar - item.Sugar} \ncoffee= {total.coffee - item.Coffee}");
-                                        total.water -= item.Water;
-                                        total.sugar -= item.Sugar;
-                                        total.coffee -= item.Coffee;
+                                        Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
                                         while (!t)
@@ -235,7 +223,8 @@ namespace Cofee_Machine
                                                     Console.WriteLine($"\nPleas take your change {RunningTotal}");
                                                     RunningTotal -= RunningTotal;
                                                     t = true;
-                                                    DisplayCoffeesSelection();
+                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
+                                                    DepositCoin(int.Parse(Console.ReadLine()));
                                                     break;
                                                 case 1:
                                                     DisplayCoffeesSelection();
@@ -250,9 +239,7 @@ namespace Cofee_Machine
                                         }
                                     }
                                     else
-                                    {
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
-                                    }
                                 }
                                 else
                                 {
@@ -275,10 +262,7 @@ namespace Cofee_Machine
                                     {
                                         Console.WriteLine($"\nThank you for choosing {item.CoffeeName} product is ready");
                                         RunningTotal -= CostofCoffee;
-                                        Console.WriteLine($"\nwater= {total.water - item.Water} \nsugar= {total.sugar - item.Sugar} \ncoffee= {total.coffee - item.Coffee}");
-                                        total.water -= item.Water;
-                                        total.sugar -= item.Sugar;
-                                        total.coffee -= item.Coffee;
+                                        Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
                                         while (!t)
@@ -290,7 +274,8 @@ namespace Cofee_Machine
                                                     Console.WriteLine($"\nPleas take your change {RunningTotal}");
                                                     RunningTotal -= RunningTotal;
                                                     t = true;
-                                                    DisplayCoffeesSelection();
+                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
+                                                    DepositCoin(int.Parse(Console.ReadLine()));
                                                     break;
                                                 case 1:
                                                     DisplayCoffeesSelection();
@@ -305,9 +290,7 @@ namespace Cofee_Machine
                                         }
                                     }
                                     else
-                                    {
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
-                                    }
                                 }
                                 else
                                 {
@@ -330,10 +313,7 @@ namespace Cofee_Machine
                                     {
                                         Console.WriteLine($"\nThank you for choosing {item.CoffeeName} product is ready");
                                         RunningTotal -= CostofCoffee;
-                                        Console.WriteLine($"\nwater= {total.water - item.Water} \nsugar= {total.sugar - item.Sugar} \ncoffee= {total.coffee - item.Coffee}");
-                                        total.water -= item.Water;
-                                        total.sugar -= item.Sugar;
-                                        total.coffee -= item.Coffee;
+                                        Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");                                        
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
                                         while (!t)
@@ -345,7 +325,8 @@ namespace Cofee_Machine
                                                     Console.WriteLine($"\nPleas take your change {RunningTotal}");
                                                     RunningTotal -= RunningTotal;
                                                     t = true;
-                                                    DisplayCoffeesSelection();
+                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
+                                                    DepositCoin(int.Parse(Console.ReadLine()));
                                                     break;
                                                 case 1:
                                                     DisplayCoffeesSelection();
@@ -360,9 +341,7 @@ namespace Cofee_Machine
                                         }
                                     }
                                     else
-                                    {
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
-                                    }
                                 }
                                 else
                                 {
@@ -385,10 +364,7 @@ namespace Cofee_Machine
                                     {
                                         Console.WriteLine($"\nThank you for choosing {item.CoffeeName} product is ready");
                                         RunningTotal -= CostofCoffee;
-                                        Console.WriteLine($"\nwater= {total.water - item.Water} \nsugar= {total.sugar - item.Sugar} \ncoffee= {total.coffee - item.Coffee}");
-                                        total.water -= item.Water;
-                                        total.sugar -= item.Sugar;
-                                        total.coffee -= item.Coffee;
+                                        Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
                                         while (!t)
@@ -400,7 +376,8 @@ namespace Cofee_Machine
                                                     Console.WriteLine($"\nPleas take your change {RunningTotal}");
                                                     RunningTotal -= RunningTotal;
                                                     t = true;
-                                                    DisplayCoffeesSelection();
+                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
+                                                    DepositCoin(int.Parse(Console.ReadLine()));
                                                     break;
                                                 case 1:
                                                     DisplayCoffeesSelection();
@@ -415,9 +392,7 @@ namespace Cofee_Machine
                                         }
                                     }
                                     else
-                                    {
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
-                                    }
                                 }
                                 else
                                 {
@@ -440,10 +415,7 @@ namespace Cofee_Machine
                                     {
                                         Console.WriteLine($"\nThank you for choosing {item.CoffeeName} product is ready");
                                         RunningTotal -= CostofCoffee;
-                                        Console.WriteLine($"\nwater= {total.water - item.Water} \nsugar= {total.sugar - item.Sugar} \ncoffee= {total.coffee - item.Coffee}");
-                                        total.water -= item.Water;
-                                        total.sugar -= item.Sugar;
-                                        total.coffee -= item.Coffee;
+                                        Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
                                         while (!t)
@@ -455,7 +427,8 @@ namespace Cofee_Machine
                                                     Console.WriteLine($"\nPleas take your change {RunningTotal}");
                                                     RunningTotal -= RunningTotal;
                                                     t = true;
-                                                    DisplayCoffeesSelection();
+                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
+                                                    DepositCoin(int.Parse(Console.ReadLine()));
                                                     break;
                                                 case 1:
                                                     DisplayCoffeesSelection();
@@ -470,9 +443,7 @@ namespace Cofee_Machine
                                         }
                                     }
                                     else
-                                    {
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
-                                    }
                                 }
                                 else
                                 {
@@ -495,10 +466,7 @@ namespace Cofee_Machine
                                     {
                                         Console.WriteLine($"\nThank you for choosing {item.CoffeeName} product is ready");
                                         RunningTotal -= CostofCoffee;
-                                        Console.WriteLine($"\nwater= {total.water - item.Water} \nsugar= {total.sugar - item.Sugar} \ncoffee= {total.coffee - item.Coffee}");
-                                        total.water -= item.Water;
-                                        total.sugar -= item.Sugar;
-                                        total.coffee -= item.Coffee;
+                                        Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
                                         while (!t)
@@ -510,7 +478,8 @@ namespace Cofee_Machine
                                                     Console.WriteLine($"\nPleas take your change {RunningTotal}");
                                                     RunningTotal -= RunningTotal;
                                                     t = true;
-                                                    DisplayCoffeesSelection();
+                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
+                                                    DepositCoin(int.Parse(Console.ReadLine()));
                                                     break;
                                                 case 1:
                                                     DisplayCoffeesSelection();
@@ -525,9 +494,7 @@ namespace Cofee_Machine
                                         }
                                     }
                                     else
-                                    {
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
-                                    }
                                 }
                                 else
                                 {
@@ -549,10 +516,7 @@ namespace Cofee_Machine
                                     {
                                         Console.WriteLine($"\nThank you for choosing {item.CoffeeName} product is ready");
                                         RunningTotal -= CostofCoffee;
-                                        Console.WriteLine($"\nwater= {total.water - item.Water} \nsugar= {total.sugar - item.Sugar} \ncoffee= {total.coffee - item.Coffee}");
-                                        total.water -= item.Water;
-                                        total.sugar -= item.Sugar;
-                                        total.coffee -= item.Coffee;
+                                        Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
                                         while (!t)
@@ -564,7 +528,8 @@ namespace Cofee_Machine
                                                     Console.WriteLine($"\nPleas take your change {RunningTotal}");
                                                     RunningTotal -= RunningTotal;
                                                     t = true;
-                                                    DisplayCoffeesSelection();
+                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
+                                                    DepositCoin(int.Parse(Console.ReadLine()));
                                                     break;
                                                 case 1:
                                                     DisplayCoffeesSelection();
@@ -579,9 +544,7 @@ namespace Cofee_Machine
                                         }
                                     }
                                     else
-                                    {
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
-                                    }
                                 }
                                 else
                                 {
@@ -604,10 +567,7 @@ namespace Cofee_Machine
                                     {
                                         Console.WriteLine($"\nThank you for choosing {item.CoffeeName} product is ready");
                                         RunningTotal -= CostofCoffee;
-                                        Console.WriteLine($"\nwater= {total.water - item.Water} \nsugar= {total.sugar - item.Sugar} \ncoffee= {total.coffee - item.Coffee}");
-                                        total.water -= item.Water;
-                                        total.sugar -= item.Sugar;
-                                        total.coffee -= item.Coffee;
+                                        Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
                                         while (!t)
@@ -619,7 +579,8 @@ namespace Cofee_Machine
                                                     Console.WriteLine($"\nPleas take your change {RunningTotal}");
                                                     RunningTotal -= RunningTotal;
                                                     t = true;
-                                                    DisplayCoffeesSelection();
+                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
+                                                    DepositCoin(int.Parse(Console.ReadLine()));
                                                     break;
                                                 case 1:
                                                     DisplayCoffeesSelection();
@@ -634,9 +595,7 @@ namespace Cofee_Machine
                                         }
                                     }
                                     else
-                                    {
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
-                                    }
                                 }
                                 else
                                 {
@@ -659,10 +618,7 @@ namespace Cofee_Machine
                                     {
                                         Console.WriteLine($"\nThank you for choosing {item.CoffeeName} product is ready");
                                         RunningTotal -= CostofCoffee;
-                                        Console.WriteLine($"\nwater= {total.water - item.Water} \nsugar= {total.sugar - item.Sugar} \ncoffee= {total.coffee - item.Coffee}");
-                                        total.water -= item.Water;
-                                        total.sugar -= item.Sugar;
-                                        total.coffee -= item.Coffee;
+                                        Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
                                         while (!t)
@@ -674,7 +630,8 @@ namespace Cofee_Machine
                                                     Console.WriteLine($"\nPleas take your change {RunningTotal}");
                                                     RunningTotal -= RunningTotal;
                                                     t = true;
-                                                    DisplayCoffeesSelection();
+                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
+                                                    DepositCoin(int.Parse(Console.ReadLine()));
                                                     break;
                                                 case 1:
                                                     DisplayCoffeesSelection();
@@ -689,9 +646,7 @@ namespace Cofee_Machine
                                         }
                                     }
                                     else
-                                    {
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
-                                    }
                                 }
                                 else
                                 {
@@ -703,9 +658,8 @@ namespace Cofee_Machine
                             break;
 
                         default:
-                            Console.WriteLine("invalid Selection please select now");
-                            id = Convert.ToInt32(Console.ReadLine());
-                            selectionOK = false;
+                            Console.WriteLine("\ninvalid Selection please select now");
+                            DisplayCoffeesSelection();
                             break;
                     }
                 }
