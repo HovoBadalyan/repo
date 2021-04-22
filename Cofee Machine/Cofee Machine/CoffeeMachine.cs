@@ -84,6 +84,33 @@ namespace Cofee_Machine
             CoffeeSelection(Convert.ToInt32(Console.ReadLine()));
         }
 
+        public void Afteraction(bool t)
+        {
+            while (!t)
+            {
+                int i = Convert.ToInt32(Console.ReadLine());
+                switch (i)
+                {
+                    case 0:
+                        Console.WriteLine($"\nPleas take your change {RunningTotal}");
+                        RunningTotal -= RunningTotal;
+                        t = true;
+                        Console.WriteLine("\nPlease enter coin (50,100,200,500)");
+                        DepositCoin(int.Parse(Console.ReadLine()));
+                        break;
+                    case 1:
+                        DisplayCoffeesSelection();
+                        t = true;
+                        break;
+                    default:
+                        Console.WriteLine("\ninvalid key, please enter valid key");
+                        i = Convert.ToInt32(Console.ReadLine());
+                        t = false;
+                        break;
+                }
+            }
+
+        }
 
         private void CoffeeSelection(int id)
         {
@@ -111,29 +138,7 @@ namespace Cofee_Machine
                                         Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");                       
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
-                                        while (!t)
-                                        {
-                                            int i = Convert.ToInt32(Console.ReadLine());
-                                            switch (i)
-                                            {
-                                                case 0:
-                                                    Console.WriteLine($"\nPleas take your change {RunningTotal}");
-                                                    RunningTotal -= RunningTotal;
-                                                    t = true;
-                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
-                                                    DepositCoin(int.Parse(Console.ReadLine())); 
-                                                    break;
-                                                case 1:
-                                                    DisplayCoffeesSelection();
-                                                    t = true;
-                                                    break;
-                                                default:
-                                                    Console.WriteLine("\ninvalid key, please enter valid key");
-                                                    i = Convert.ToInt32(Console.ReadLine());
-                                                    t = false;
-                                                    break;
-                                            }
-                                        }
+                                        Afteraction(t);
                                     }
                                     else
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
@@ -163,29 +168,7 @@ namespace Cofee_Machine
                                         Console.WriteLine($"\nwater= { total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
-                                        while (!t)
-                                        {
-                                            int i = Convert.ToInt32(Console.ReadLine());
-                                            switch (i)
-                                            {
-                                                case 0:
-                                                    Console.WriteLine($"\nPleas take your change {RunningTotal}");
-                                                    RunningTotal -= RunningTotal;
-                                                    t = true;
-                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
-                                                    DepositCoin(int.Parse(Console.ReadLine()));
-                                                    break;
-                                                case 1:
-                                                    DisplayCoffeesSelection();
-                                                    t = true;
-                                                    break;
-                                                default:
-                                                    Console.WriteLine("\ninvalid key, please enter valid key");
-                                                    i = Convert.ToInt32(Console.ReadLine());
-                                                    t = false;
-                                                    break;
-                                            }
-                                        }
+                                        Afteraction(t);
                                     }
                                     else
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
@@ -214,29 +197,7 @@ namespace Cofee_Machine
                                         Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
-                                        while (!t)
-                                        {
-                                            int i = Convert.ToInt32(Console.ReadLine());
-                                            switch (i)
-                                            {
-                                                case 0:
-                                                    Console.WriteLine($"\nPleas take your change {RunningTotal}");
-                                                    RunningTotal -= RunningTotal;
-                                                    t = true;
-                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
-                                                    DepositCoin(int.Parse(Console.ReadLine()));
-                                                    break;
-                                                case 1:
-                                                    DisplayCoffeesSelection();
-                                                    t = true;
-                                                    break;
-                                                default:
-                                                    Console.WriteLine("\ninvalid key, please enter valid key");
-                                                    i = Convert.ToInt32(Console.ReadLine());
-                                                    t = false;
-                                                    break;
-                                            }
-                                        }
+                                        Afteraction(t);
                                     }
                                     else
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
@@ -265,29 +226,7 @@ namespace Cofee_Machine
                                         Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
-                                        while (!t)
-                                        {
-                                            int i = Convert.ToInt32(Console.ReadLine());
-                                            switch (i)
-                                            {
-                                                case 0:
-                                                    Console.WriteLine($"\nPleas take your change {RunningTotal}");
-                                                    RunningTotal -= RunningTotal;
-                                                    t = true;
-                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
-                                                    DepositCoin(int.Parse(Console.ReadLine()));
-                                                    break;
-                                                case 1:
-                                                    DisplayCoffeesSelection();
-                                                    t = true;
-                                                    break;
-                                                default:
-                                                    Console.WriteLine("\ninvalid key, please enter valid key");
-                                                    i = Convert.ToInt32(Console.ReadLine());
-                                                    t = false;
-                                                    break;
-                                            }
-                                        }
+                                        Afteraction(t);
                                     }
                                     else
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
@@ -316,29 +255,7 @@ namespace Cofee_Machine
                                         Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");                                        
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
-                                        while (!t)
-                                        {
-                                            int i = Convert.ToInt32(Console.ReadLine());
-                                            switch (i)
-                                            {
-                                                case 0:
-                                                    Console.WriteLine($"\nPleas take your change {RunningTotal}");
-                                                    RunningTotal -= RunningTotal;
-                                                    t = true;
-                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
-                                                    DepositCoin(int.Parse(Console.ReadLine()));
-                                                    break;
-                                                case 1:
-                                                    DisplayCoffeesSelection();
-                                                    t = true;
-                                                    break;
-                                                default:
-                                                    Console.WriteLine("\ninvalid key, please enter valid key");
-                                                    i = Convert.ToInt32(Console.ReadLine());
-                                                    t = false;
-                                                    break;
-                                            }
-                                        }
+                                        Afteraction(t);
                                     }
                                     else
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
@@ -367,29 +284,7 @@ namespace Cofee_Machine
                                         Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
-                                        while (!t)
-                                        {
-                                            int i = Convert.ToInt32(Console.ReadLine());
-                                            switch (i)
-                                            {
-                                                case 0:
-                                                    Console.WriteLine($"\nPleas take your change {RunningTotal}");
-                                                    RunningTotal -= RunningTotal;
-                                                    t = true;
-                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
-                                                    DepositCoin(int.Parse(Console.ReadLine()));
-                                                    break;
-                                                case 1:
-                                                    DisplayCoffeesSelection();
-                                                    t = true;
-                                                    break;
-                                                default:
-                                                    Console.WriteLine("\ninvalid key, please enter valid key");
-                                                    i = Convert.ToInt32(Console.ReadLine());
-                                                    t = false;
-                                                    break;
-                                            }
-                                        }
+                                        Afteraction(t);
                                     }
                                     else
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
@@ -418,29 +313,7 @@ namespace Cofee_Machine
                                         Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
-                                        while (!t)
-                                        {
-                                            int i = Convert.ToInt32(Console.ReadLine());
-                                            switch (i)
-                                            {
-                                                case 0:
-                                                    Console.WriteLine($"\nPleas take your change {RunningTotal}");
-                                                    RunningTotal -= RunningTotal;
-                                                    t = true;
-                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
-                                                    DepositCoin(int.Parse(Console.ReadLine()));
-                                                    break;
-                                                case 1:
-                                                    DisplayCoffeesSelection();
-                                                    t = true;
-                                                    break;
-                                                default:
-                                                    Console.WriteLine("\ninvalid key, please enter valid key");
-                                                    i = Convert.ToInt32(Console.ReadLine());
-                                                    t = false;
-                                                    break;
-                                            }
-                                        }
+                                        Afteraction(t);
                                     }
                                     else
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
@@ -469,29 +342,7 @@ namespace Cofee_Machine
                                         Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
-                                        while (!t)
-                                        {
-                                            int i = Convert.ToInt32(Console.ReadLine());
-                                            switch (i)
-                                            {
-                                                case 0:
-                                                    Console.WriteLine($"\nPleas take your change {RunningTotal}");
-                                                    RunningTotal -= RunningTotal;
-                                                    t = true;
-                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
-                                                    DepositCoin(int.Parse(Console.ReadLine()));
-                                                    break;
-                                                case 1:
-                                                    DisplayCoffeesSelection();
-                                                    t = true;
-                                                    break;
-                                                default:
-                                                    Console.WriteLine("\ninvalid key, please enter valid key");
-                                                    i = Convert.ToInt32(Console.ReadLine());
-                                                    t = false;
-                                                    break;
-                                            }
-                                        }
+                                        Afteraction(t);
                                     }
                                     else
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
@@ -519,29 +370,7 @@ namespace Cofee_Machine
                                         Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
-                                        while (!t)
-                                        {
-                                            int i = Convert.ToInt32(Console.ReadLine());
-                                            switch (i)
-                                            {
-                                                case 0:
-                                                    Console.WriteLine($"\nPleas take your change {RunningTotal}");
-                                                    RunningTotal -= RunningTotal;
-                                                    t = true;
-                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
-                                                    DepositCoin(int.Parse(Console.ReadLine()));
-                                                    break;
-                                                case 1:
-                                                    DisplayCoffeesSelection();
-                                                    t = true;
-                                                    break;
-                                                default:
-                                                    Console.WriteLine("\ninvalid key, please enter valid key");
-                                                    i = Convert.ToInt32(Console.ReadLine());
-                                                    t = false;
-                                                    break;
-                                            }
-                                        }
+                                        Afteraction(t);           
                                     }
                                     else
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
@@ -570,29 +399,7 @@ namespace Cofee_Machine
                                         Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
-                                        while (!t)
-                                        {
-                                            int i = Convert.ToInt32(Console.ReadLine());
-                                            switch (i)
-                                            {
-                                                case 0:
-                                                    Console.WriteLine($"\nPleas take your change {RunningTotal}");
-                                                    RunningTotal -= RunningTotal;
-                                                    t = true;
-                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
-                                                    DepositCoin(int.Parse(Console.ReadLine()));
-                                                    break;
-                                                case 1:
-                                                    DisplayCoffeesSelection();
-                                                    t = true;
-                                                    break;
-                                                default:
-                                                    Console.WriteLine("\ninvalid key, please enter valid key");
-                                                    i = Convert.ToInt32(Console.ReadLine());
-                                                    t = false;
-                                                    break;
-                                            }
-                                        }
+                                        Afteraction(t);
                                     }
                                     else
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
@@ -621,29 +428,7 @@ namespace Cofee_Machine
                                         Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
-                                        while (!t)
-                                        {
-                                            int i = Convert.ToInt32(Console.ReadLine());
-                                            switch (i)
-                                            {
-                                                case 0:
-                                                    Console.WriteLine($"\nPleas take your change {RunningTotal}");
-                                                    RunningTotal -= RunningTotal;
-                                                    t = true;
-                                                    Console.WriteLine("\nPlease enter coin (50,100,200,500)");
-                                                    DepositCoin(int.Parse(Console.ReadLine()));
-                                                    break;
-                                                case 1:
-                                                    DisplayCoffeesSelection();
-                                                    t = true;
-                                                    break;
-                                                default:
-                                                    Console.WriteLine("\ninvalid key, please enter valid key");
-                                                    i = Convert.ToInt32(Console.ReadLine());
-                                                    t = false;
-                                                    break;
-                                            }
-                                        }
+                                        Afteraction(t);
                                     }
                                     else
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
