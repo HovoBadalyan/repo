@@ -135,10 +135,11 @@ namespace Cofee_Machine
                                     {
                                         Console.WriteLine($"\nThank you for choosing {item.CoffeeName} product is ready");
                                         RunningTotal -= CostofCoffee;
-                                        Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");                       
+                                        Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
                                         Afteraction(t);
+                                        DisplayCoffeesSelection();
                                     }
                                     else
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
@@ -146,7 +147,9 @@ namespace Cofee_Machine
                                 }
                                 else
                                 {
+                                    Console.ForegroundColor = ConsoleColor.Red;
                                     Console.WriteLine("\nyou don’t have enough money in your balance please add {0}", item.Price - RunningTotal);
+                                    Console.ForegroundColor = ConsoleColor.Gray;
                                     DepositCoin(Convert.ToInt32(Console.ReadLine()));
                                 }
                             }
@@ -175,7 +178,9 @@ namespace Cofee_Machine
                                 }
                                 else
                                 {
+                                    Console.ForegroundColor = ConsoleColor.Red;
                                     Console.WriteLine("\nyou don’t have enough money in your balance please add {0}", item.Price - RunningTotal);
+                                    Console.ForegroundColor = ConsoleColor.Gray;
                                     DepositCoin(Convert.ToInt32(Console.ReadLine()));
                                 }
                             }
@@ -204,7 +209,9 @@ namespace Cofee_Machine
                                 }
                                 else
                                 {
+                                    Console.ForegroundColor = ConsoleColor.Red;
                                     Console.WriteLine("\nyou don’t have enough money in your balance please add {0}", item.Price - RunningTotal);
+                                    Console.ForegroundColor = ConsoleColor.Gray;
                                     DepositCoin(Convert.ToInt32(Console.ReadLine()));
                                 }
                             }
@@ -233,7 +240,9 @@ namespace Cofee_Machine
                                 }
                                 else
                                 {
+                                    Console.ForegroundColor = ConsoleColor.Red;
                                     Console.WriteLine("\nyou don’t have enough money in your balance please add {0}", item.Price - RunningTotal);
+                                    Console.ForegroundColor = ConsoleColor.Gray;
                                     DepositCoin(Convert.ToInt32(Console.ReadLine()));
                                 }
                             }
@@ -252,7 +261,7 @@ namespace Cofee_Machine
                                     {
                                         Console.WriteLine($"\nThank you for choosing {item.CoffeeName} product is ready");
                                         RunningTotal -= CostofCoffee;
-                                        Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");                                        
+                                        Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
                                         Afteraction(t);
@@ -262,7 +271,9 @@ namespace Cofee_Machine
                                 }
                                 else
                                 {
+                                    Console.ForegroundColor = ConsoleColor.Red;
                                     Console.WriteLine("\nyou don’t have enough money in your balance please add {0}", item.Price - RunningTotal);
+                                    Console.ForegroundColor = ConsoleColor.Gray;
                                     DepositCoin(Convert.ToInt32(Console.ReadLine()));
                                 }
                             }
@@ -291,7 +302,9 @@ namespace Cofee_Machine
                                 }
                                 else
                                 {
+                                    Console.ForegroundColor = ConsoleColor.Red;
                                     Console.WriteLine("\nyou don’t have enough money in your balance please add {0}", item.Price - RunningTotal);
+                                    Console.ForegroundColor = ConsoleColor.Gray;
                                     DepositCoin(Convert.ToInt32(Console.ReadLine()));
                                 }
                             }
@@ -320,7 +333,9 @@ namespace Cofee_Machine
                                 }
                                 else
                                 {
+                                    Console.ForegroundColor = ConsoleColor.Red;
                                     Console.WriteLine("\nyou don’t have enough money in your balance please add {0}", item.Price - RunningTotal);
+                                    Console.ForegroundColor = ConsoleColor.Gray;
                                     DepositCoin(Convert.ToInt32(Console.ReadLine()));
                                 }
                             }
@@ -349,7 +364,9 @@ namespace Cofee_Machine
                                 }
                                 else
                                 {
+                                    Console.ForegroundColor = ConsoleColor.Red;
                                     Console.WriteLine("\nyou don’t have enough money in your balance please add {0}", item.Price - RunningTotal);
+                                    Console.ForegroundColor = ConsoleColor.Gray;
                                     DepositCoin(Convert.ToInt32(Console.ReadLine()));
                                 }
                             }
@@ -370,14 +387,16 @@ namespace Cofee_Machine
                                         Console.WriteLine($"\nwater= {total.water -= item.Water} \nsugar= {total.sugar -= item.Sugar} \ncoffee= {total.coffee -= item.Coffee}");
                                         Console.WriteLine("\nYour change is {0}", RunningTotal);
                                         Console.WriteLine("\nPlease you action 0 for take change and 1 for continue order");
-                                        Afteraction(t);           
+                                        Afteraction(t);
                                     }
                                     else
                                         Console.WriteLine("\nSorry  not enough ingredients in the store ");
                                 }
                                 else
                                 {
+                                    Console.ForegroundColor = ConsoleColor.Red;
                                     Console.WriteLine("\nyou don’t have enough money in your balance please add {0}", item.Price - RunningTotal);
+                                    Console.ForegroundColor = ConsoleColor.Gray;
                                     DepositCoin(Convert.ToInt32(Console.ReadLine()));
                                 }
                             }
@@ -406,7 +425,9 @@ namespace Cofee_Machine
                                 }
                                 else
                                 {
+                                    Console.ForegroundColor = ConsoleColor.Red;
                                     Console.WriteLine("\nyou don’t have enough money in your balance please add {0}", item.Price - RunningTotal);
+                                    Console.ForegroundColor = ConsoleColor.Gray;
                                     DepositCoin(Convert.ToInt32(Console.ReadLine()));
                                 }
                             }
@@ -435,7 +456,9 @@ namespace Cofee_Machine
                                 }
                                 else
                                 {
+                                    Console.ForegroundColor = ConsoleColor.Red;
                                     Console.WriteLine("\nyou don’t have enough money in your balance please add {0}", item.Price - RunningTotal);
+                                    Console.ForegroundColor = ConsoleColor.Gray;
                                     DepositCoin(Convert.ToInt32(Console.ReadLine()));
                                 }
                             }
@@ -443,7 +466,9 @@ namespace Cofee_Machine
                             break;
 
                         default:
+                            Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine("\ninvalid Selection please select now");
+                            Console.ForegroundColor = ConsoleColor.Gray;
                             DisplayCoffeesSelection();
                             break;
                     }
